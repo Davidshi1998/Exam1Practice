@@ -157,6 +157,7 @@ def problem3a(window, point, n):
     #    DIFFICULTY:      7 or 8
     #    TIME ESTIMATE:   20 to 35 minutes.
     # ------------------------------------------------------------------
+
     sum = 0
     for k in range(n):
         line = rg.Line(rg.Point(point.x + 20 * k, point.y + 10 * k), rg.Point(point.x + 20 * k, point.y + 50 + 10 * k))
